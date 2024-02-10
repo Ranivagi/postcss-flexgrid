@@ -1,0 +1,34 @@
+{
+  "name": "postcss-flexgrid",
+  "version": "0.0.1",
+  "description": "Flex and Grid compatibility, PostCSS plugin",
+  "keywords": [
+    "postcss",
+    "css",
+    "postcss-plugin",
+    "flex",
+    "grid",
+    "compatibility"
+  ],
+  "scripts": {
+    "test": "jest"
+  },
+  "author": "Ränivägi <info@ranivagi.ee>",
+  "license": "MIT",
+  "repository": "Ranivagi/postcss-flexgrid",
+  "dependencies": {
+  },
+  "peerDependencies": {
+    "postcss": "^8.2.10"
+  },
+  "devDependencies": {
+    "jest": "^27.5.1",
+    "postcss": "^8.2.10"
+  },
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "jest": {
+    "testEnvironment": "node"
+  }
+}

@@ -1,0 +1,26 @@
+.basic-align {
+    align-items: flex-start;
+    align-content: flex-end;
+    align-self: flex-start;
+}
+
+.basic-justify {
+    justify-items: center;
+    justify-content: flex-end;
+    justify-self: flex-start;
+}
+
+.basic-place {
+    place-items: flex-start flex-end;
+    place-content: center flex-start;
+    place-self: flex-end flex-start;
+}
+
+.basic-gap {
+    grid-gap: 4px;
+    gap: 4px;
+    grid-row-gap: 5px;
+    row-gap: 5px;
+    grid-column-gap: 6px;
+    column-gap: 6px;
+}
