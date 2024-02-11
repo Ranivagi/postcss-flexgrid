@@ -1,5 +1,5 @@
 {
-  "name": "postcss-flexgrid",
+  "name": "postcss-flexgrid-comp",
   "version": "0.0.1",
   "description": "Flex and Grid compatibility, PostCSS plugin",
   "keywords": [
@@ -15,7 +15,10 @@
   },
   "author": "Ränivägi <info@ranivagi.ee>",
   "license": "MIT",
-  "repository": "Ranivagi/postcss-flexgrid",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Ranivagi/postcss-flexgrid.git"
+  },
   "dependencies": {
   },
   "peerDependencies": {

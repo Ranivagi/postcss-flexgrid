@@ -1,6 +1,6 @@
-# PostCSS FlexGrid
+# PostCSS FlexGridComp
 
-Flex and Grid compatibility, [PostCSS] plugin.
+Flex and Grid Compatibility, [PostCSS] plugin.
 
 Converts modern flex and grid properties to work on early-spec browsers:
 - Replaces `start` and `end` alignment-values with `flex-start` and `flex-end` respectively.
@@ -28,22 +28,22 @@ For example:
 
 ## Usage
 
-Add [PostCSS FlexGrid] to your project:
+Add [PostCSS FlexGridComp] to your project:
 
 ```bash
-npm install postcss postcss-flexgrid --save-dev
+npm install postcss postcss-flexgrid-comp --save-dev
 ```
 
 Use it as a [PostCSS] plugin:
 
 ```js
 const postcss = require('postcss');
-const postcssFlexGrid = require('postcss-flexgrid');
+const postcssFlexGridComp = require('postcss-flexgrid-comp');
 
 postcss([
-    postcssFlexGrid()
+    postcssFlexGridComp()
 ]).process(YOUR_CSS /*, processOptions */);
 ```
 
 [PostCSS]: https://github.com/postcss/postcss
-[PostCSS FlexGrid]: https://github.com/Ranivagi/postcss-flexgrid
+[PostCSS FlexGridComp]: https://github.com/Ranivagi/postcss-flexgrid

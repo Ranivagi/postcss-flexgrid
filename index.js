@@ -1,6 +1,6 @@
 module.exports = (opts = {}) => {
     return {
-        postcssPlugin: "postcss-flexgrid",
+        postcssPlugin: "postcss-flexgrid-comp",
         Once(root) { root.walkDecls((decl) => {
             const { prop, value } = decl;
 
